@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align:center;
+            background-image:url("https://images.pexels.com/photos/3832475/pexels-photo-3832475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            border-radius:10px;
+    
+        }
+        .heading{
+            padding-top:20px;
+            color:white;
+        }
+        .name{
+            margin-bottom:10px;
+        }
+        .password{
+            margin-bottom:10px;
+        }
+        button{
+            background-color:#8de3b1;
+
+        }
+        button:hover{
+            background-color:yellow;
+            color:balck;
+            border-radius:10px;
+            border-color:none;
+            border:2px solid white;
+        }
+        .create{
+            border:2px solid white;
+            text-decoration:none;
+            background-color:black;
+            color:white;
+            padding:10px;
+            border-radius:10px;
+            
+        }
+        .or{
+            font-size:10px;
+            padding-top:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="secondContainer"/>
+
+            <h1 class="heading">Login Form</h1>
+
+                <form action="/login" method="post" >
+                <input placeholder="Enter your name" name="name" type="text" class="name">
+                <br>
+                <input placeholder="Enter your Password" name="password" type="password" class="password">
+                <br>
+
+                <button>Submit</button>
+                <h1 class="or">OR</h1>
+                <h3 >Dont have a account ?</h3>
+                <a href="/signup" class="create">Create a new account</a>
+                 </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
